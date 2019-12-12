@@ -7,48 +7,54 @@
   <title>Candy Land | Products</title>
   <meta name="description" content="Variety of desserts and chocolates">
   <meta name="author" content="Clara Khast">
-  <link rel="stylesheet" href="css/reset.css"> 
+  <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Material design icons are use below. Remove this line if using other font packs or images. Details on Material Design icons can be found here: https://material.io/resources/icons/ -->
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-      <nav class="navbar">
-          <div class="logo-container">
-            <a href="#" class="nav-item hover logo">Candy Land</a>
-          </div>
-      
-          <div class="nav-menu">
-            <a href="#"><i class="fas fa-bars"></i></a>
-          </div>
-      
-          <ul class="menu-top">
-            <li><a href="#" class="nav-item hover">Home</a></li>
-            <li><a href="#" class="nav-item hover">Products</a></li>
-            <li><a href="#" class="nav-item hover">Shipping</a></li>
-            <li><a href="#" class="nav-item hover">Contact Us</a></li>
-          </ul>
-      
-          <ul class="icons-menu">
-            <li><a href="#"><i class="fas fa-shopping-cart hover"></i></a></li>
-            <li><a href="#"><i class="far fa-heart hover"></i></a></li>
-            <li><a href="#" class="nav-item"><i class="fas fa-user hover"></i></a></li>
-          </ul>
-        </nav>
-  </header>
 
+  <!-- <header> -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="#" class="nav-item hover logo">Candy Land</a>
+    </div>
+
+    <div class="nav-menu">
+      <a href="#"><i class="fas fa-bars"></i></a>
+    </div>
+
+    <ul class="menu-top">
+      <li><a href="#" class="nav-item hover">Home</a></li>
+      <li><a href="#" class="nav-item hover">Products</a></li>
+      <li><a href="#" class="nav-item hover">Shipping</a></li>
+      <li><a href="#" class="nav-item hover">Contact Us</a></li>
+    </ul>
+
+    <ul class="icons-menu">
+      <li><a href="#"><i class="fas fa-shopping-cart hover"></i></a></li>
+      <li><a href="#"><i class="far fa-heart hover"></i></a></li>
+      <li><a href="#" class="nav-item"><i class="fas fa-user hover"></i></a></li>
+    </ul>
+  </nav>
+
+  <!-- Additional functionality or links -->
+  <!-- <ul>
+        <li><button><span class="material-icons">favorite_border</span></button></li>
+        <li><button><span class="material-icons">shopping_cart</span></button></li>
+      </ul> -->
 
   <main>
-    <section class="intro-section">
-        <div>
-            <h1>The Holiday Special Sweets</h1>
-            <p>Up to 80% off!</p>
-            <button class="btn intro-btn"> Shop now</button>
-          </div>
-    </section>
+    <header>
+      <div>
+        <h1>The Holiday Special Sweets</h1>
+        <p>Up to 80% off!</p>
+        <button class="btn intro-btn"> Shop now</button>
+      </div>
+    </header>
 
     <!-- Search the site -->
 
@@ -123,11 +129,8 @@
 
     <section id="results" class="results">
     </section>
-
-    <div>
-        <ul id="pagination"></ul>
-    </div>
-
+    <div id="res"></div>
+    <ul id="pag"></ul>
 
     <footer class="footer">
         <ul class="social-media-list">

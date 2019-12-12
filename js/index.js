@@ -11,7 +11,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://github.com/clarakhast/webstore/blob/master/img/2.jpeg?raw=true`,
+    image: `../img/2.jpeg`,
     rate: 5
   },
   {
@@ -466,15 +466,15 @@ let allProducts = [
     const sortBy = document.getElementById('sortOrder').value;    // dropdown value
     arr = productsBySort(arr, sortBy);  // sort the courses, reassign the new Array
 
-    // const resultsPerPage = 8;
+    // const amt = 4;
     // const strt = 0;
-    // const numberOfPages = allProducts.length/ resultsPerPage;
+    // const page = allProducts.length;
 
 
-    // document.getElementById(`pagination`).innerHTML = "";
+    // document.getElementById(`pag`).innerHTML = "";
     // const pagination = (len, amt) => {
     //   for (let i = 0; i < len / amt; i++)
-    //     document.getElementById(`pagination`).innerHTML += `<a href="#" data-page=${i + 1}>${i + 1}</a> `
+    //     document.getElementById(`pag`).innerHTML += `<a href="#" data-page=${i + 1}>${i + 1}</a> `
     // }
 
     // const render = (p, a) => {
@@ -483,7 +483,7 @@ let allProducts = [
     //   document.getElementById(`results`).innerHTML = results;
     // }
 
-    // document.getElementById('pagination').addEventListener('click', function ({ target }) {
+    // document.getElementById('pag').addEventListener('click', function ({ target }) {
     //   if (!target.matches(`a`)) return;
     //   render(parseInt(target.dataset.page), amt)
     // })
