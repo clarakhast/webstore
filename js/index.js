@@ -11,7 +11,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/2.jpeg`,
+    image: `https://images.pexels.com/photos/433527/pexels-photo-433527.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 5
   },
   {
@@ -23,33 +23,33 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/4.jpeg`,
+    image: `https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 3.5
   },
 
   {
     id: 003,
     name: `Harri the Cookie Monster`,
-    category: `Candy`,
+    category: `Cake`,
     price: 9,
     quantity: 10,
     description: `Harri the cookie monster just adores vanilla ice cream and Oreo cookies. And we adore Harri too.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/c1.jpeg`,
+    image: `https://images.pexels.com/photos/132694/pexels-photo-132694.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 4.5
   },
 
   {
     id: 004,
     name: `The Black Devil`,
-    category: `Candy`,
+    category: `Cake`,
     price: 11,
     quantity: 0,
     description: `Vanilla ice cream, with liquorice sauce, and topped with liquorice candies.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/c2.jpeg`,
+    image: `https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 4
   },
 
@@ -217,7 +217,7 @@ let allProducts = [
   },
   {
     id: 18,
-    name: `Lavender Chcoco Mix`,
+    name: `Chcoco Mix`,
     category: `Gift`,
     price: 18,
     quantity: 100,
@@ -242,7 +242,7 @@ let allProducts = [
   ,
   {
     id: 020,
-    name: `Lavender Chcoco Mix`,
+    name: `Lavender Mix`,
     category: `Ice Cream`,
     price: 18,
     quantity: 100,
@@ -255,7 +255,7 @@ let allProducts = [
   ,
   {
     id: 021,
-    name: `Lavender Chcoco Mix`,
+    name: `Nut Mix`,
     category: `Ice Cream`,
     price: 18,
     quantity: 100,
