@@ -388,24 +388,24 @@ let allProducts = [
     document.getElementById('product-container').classList.toggle('width-change');
   }
 
-  // When the filter form itself is submit...
+  // FILER FORM IS SUBMIT
   const filterTheProducts = event => {
-    event.preventDefault(); // Prevent the submit form refreshing
+    event.preventDefault(); 
     runTheFilter(event.target);
   }
 
 
-  // When a filter form component is submit...
+  // FILTER FORM COMPONENT IS SUBMIT
   const submitTheFilterForm = event => {
     runTheFilter(event.target.form);
   }
 
-  // When sorting, ensure the filters run first (which leads to a render)
+  // FILTERS RUN FIRST
   const sortTheProducts = event => {
     runTheFilter(document.getElementById('filtersForm'));
   }
 
-  // FUNCTIONS THAT BUILD OUR VIEW **************
+  // FUNCTIONS TO DISPLAY RESULTS IN HTML
   const displayProductsAsHtml = (product) => {
     let addToCart = ``;
     let reviewStars= ``;
