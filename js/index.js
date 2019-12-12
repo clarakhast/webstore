@@ -62,7 +62,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/c3.jpeg`,
+    image: `https://images.pexels.com/photos/539447/pexels-photo-539447.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 5
   },
   {
@@ -74,7 +74,7 @@ let allProducts = [
     description: `The American classic campfire dessert S’mores has found itself blended in a milkshake. Chocolate and vanilla ice cream with graham style biscuit, marshmallow syrup and chocolate sauce. Cream and marshmallows on top.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/c4.jpg`,
+    image: `https://images.pexels.com/photos/208006/pexels-photo-208006.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 2
   },
 
@@ -87,20 +87,20 @@ let allProducts = [
     description: `Indulgent soft chocolate brownie mix smothered in chocolate sauce and chocolate ice cream, topped with a delicious brownie.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/c5.jpeg`,
+    image: `https://images.pexels.com/photos/1906435/pexels-photo-1906435.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 5
   },
 
   {
     id: 08,
     name: `Peanut Snickerdoodle`,
-    category: `Cake`,
+    category: `Candy`,
     price: 18,
     quantity: 100,
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/cake.jpeg`,
+    image: `https://images.pexels.com/photos/1280730/pexels-photo-1280730.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 3.5
   },{
     id: 09,
@@ -111,7 +111,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/cake2.jpeg`,
+    image: `https://images.pexels.com/photos/302561/pexels-photo-302561.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 5
   },
   {
@@ -123,7 +123,7 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `../img/cake3.jpeg`,
+    image: `https://images.pexels.com/photos/159887/pexels-photo-159887.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
     rate: 3.5
   },
 
