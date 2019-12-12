@@ -463,41 +463,40 @@ let allProducts = [
 
   const renderProductsInArray = arr => {
     
-    const sortBy = document.getElementById('sortOrder').value;    // dropdown value
-    arr = productsBySort(arr, sortBy);  // sort the courses, reassign the new Array
+    const sortBy = document.getElementById('sortOrder').value;
+    arr = productsBySort(arr, sortBy); 
 
-    // const amt = 4;
-    // const strt = 0;
-    // const page = allProducts.length;
+    const amt = 8;
+    const page = allProducts.length/amt;
 
 
-    // document.getElementById(`pag`).innerHTML = "";
-    // const pagination = (len, amt) => {
-    //   for (let i = 0; i < len / amt; i++)
-    //     document.getElementById(`pag`).innerHTML += `<a href="#" data-page=${i + 1}>${i + 1}</a> `
-    // }
-
-    // const render = (p, a) => {
-    //   const st = (p - 1) * a;
-    //   const results = allProducts.slice(st, st + a).map(displayProductsAsHtml).join('')
-    //   document.getElementById(`results`).innerHTML = results;
-    // }
-
-    // document.getElementById('pag').addEventListener('click', function ({ target }) {
-    //   if (!target.matches(`a`)) return;
-    //   render(parseInt(target.dataset.page), amt)
-    // })
-
-    // pagination(allProducts.length, amt)
-    // render(page, amt);
-
-    if (arr.length > 0) {
-      document.getElementById('results').innerHTML = arr.map(displayProductsAsHtml).join('\n'); // Print courses  
-    } else {
-      document.getElementById('results').innerHTML = 'Sorry, no matching results.' // Woops!
+    document.getElementById(`pag`).innerHTML = "";
+    const pagination = (len, amt) => {
+      for (let i = 0; i < len / amt; i++)
+        document.getElementById(`pag`).innerHTML += `<a class="pagination" href="#" data-page=${i + 1}> ${i + 1} </a> `
     }
 
-    document.getElementById('resultsnum').innerHTML = `(${arr.length} ${(arr.length == 1) ? 'result' : 'results'})`; // Display number of total results
+    const render = (p, a) => {
+      const st = (p - 1) * a;
+      const results = allProducts.slice(st, st + a).map(displayProductsAsHtml).join('')
+      document.getElementById(`results`).innerHTML = results;
+    }
+
+    document.getElementById('pag').addEventListener('click', function ({ target }) {
+      if (!target.matches(`a`)) return;
+      render(parseInt(target.dataset.page), amt)
+    })
+
+    pagination(allProducts.length, amt)
+    render(page, amt);
+
+    if (arr.length > 0) {
+      document.getElementById('results').innerHTML = arr.map(displayProductsAsHtml).join('\n'); 
+    } else {
+      document.getElementById('results').innerHTML = 'Sorry, no matching results.' 
+    }
+
+    document.getElementById('resultsnum').innerHTML = `(${arr.length} ${(arr.length == 1) ? 'result' : 'results'})`; 
 
   }
 
@@ -508,17 +507,13 @@ let allProducts = [
   window.addEventListener('load', () => {
 
 
-    // The course elements
     renderProductsInArray(allProducts);
 
-    // UI elements
     document.getElementById('layoutView').addEventListener('click', toggleLayoutView);
     document.getElementById('sortOrder').addEventListener('change', sortTheProducts);
 
-    // The filter form
     document.getElementById('filtersForm').addEventListener('submit', filterTheProducts);
 
-    // The filter form components
     document.getElementById('productName').addEventListener('input', submitTheFilterForm);
     document.querySelectorAll('[name="category"]').forEach(radbtn => radbtn.addEventListener('change', submitTheFilterForm));
 

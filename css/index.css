@@ -421,6 +421,21 @@ footer .fa-heart {
     color: purple;
 }
 
+.pagination {
+    color: #d4418e;
+    margin: 0 1em;
+}
+
+.pagination:hover {
+    border-bottom: 1px solid #FDD839;
+    color: #FDD839;
+}
+
+#pag {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
 /* ************************************
              MEDIA QUERIES
 ***************************************/
