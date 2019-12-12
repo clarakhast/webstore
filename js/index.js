@@ -11,7 +11,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/2.jpeg`,
+    image: `/../img/2.jpeg`,
     rate: 5
   },
   {
@@ -23,7 +23,7 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/4.jpeg`,
+    image: `/../img/4.jpeg`,
     rate: 3.5
   },
 
