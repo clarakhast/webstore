@@ -11,7 +11,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/433527/pexels-photo-433527.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/2.jpeg`,
     rate: 5
   },
   {
@@ -23,7 +23,7 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/4.jpeg`,
     rate: 3.5
   },
 
@@ -36,7 +36,7 @@ let allProducts = [
     description: `Harri the cookie monster just adores vanilla ice cream and Oreo cookies. And we adore Harri too.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/40834/eat-sugar-calories-food-40834.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/c1.jpeg`,
     rate: 4.5
   },
 
@@ -49,7 +49,7 @@ let allProducts = [
     description: `Vanilla ice cream, with liquorice sauce, and topped with liquorice candies.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/867464/pexels-photo-867464.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/c2.jpeg`,
     rate: 4
   },
 
@@ -62,7 +62,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/2704220/pexels-photo-2704220.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/c3.jpeg`,
     rate: 5
   },
   {
@@ -74,7 +74,7 @@ let allProducts = [
     description: `The American classic campfire dessert S’mores has found itself blended in a milkshake. Chocolate and vanilla ice cream with graham style biscuit, marshmallow syrup and chocolate sauce. Cream and marshmallows on top.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1906435/pexels-photo-1906435.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/c4.jpg`,
     rate: 2
   },
 
@@ -87,7 +87,7 @@ let allProducts = [
     description: `Indulgent soft chocolate brownie mix smothered in chocolate sauce and chocolate ice cream, topped with a delicious brownie.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/208006/pexels-photo-208006.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/c5.jpeg`,
     rate: 5
   },
 
@@ -100,7 +100,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cake.jpeg`,
     rate: 3.5
   },{
     id: 09,
@@ -111,7 +111,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/954199/pexels-photo-954199.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cake2.jpeg`,
     rate: 5
   },
   {
@@ -123,7 +123,7 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/2274464/pexels-photo-2274464.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cake3.jpeg`,
     rate: 3.5
   },
 
@@ -136,7 +136,7 @@ let allProducts = [
     description: `Harri the cookie monster just adores vanilla ice cream and Oreo cookies. And we adore Harri too.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cp.jpeg`,
     rate: 4.5
   },
 
@@ -149,7 +149,7 @@ let allProducts = [
     description: `Vanilla ice cream, with liquorice sauce, and topped with liquorice candies.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/7316/food-purple-chocolate-dessert.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cp1.jpg`,
     rate: 4
   },
 
@@ -162,7 +162,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/268364/pexels-photo-268364.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cp2.jpeg`,
     rate: 5
   },
   {
@@ -174,7 +174,7 @@ let allProducts = [
     description: `The American classic campfire dessert S’mores has found itself blended in a milkshake. Chocolate and vanilla ice cream with graham style biscuit, marshmallow syrup and chocolate sauce. Cream and marshmallows on top.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/cp3.jpeg`,
     rate: 2
   },
   {
@@ -186,7 +186,7 @@ let allProducts = [
     description: `Indulgent soft chocolate brownie mix smothered in chocolate sauce and chocolate ice cream, topped with a delicious brownie.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1661903/pexels-photo-1661903.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/g1.jpeg`,
     rate: 5
   },
 
@@ -199,7 +199,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/g2.jpeg`,
     rate: 3.5
   },
 
@@ -212,7 +212,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/352785/pexels-photo-352785.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/g3.jpeg`,
     rate: 3.5
   },
   {
@@ -224,7 +224,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/2072148/pexels-photo-2072148.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/g4.jpeg`,
     rate: 3.5
   },
   {
@@ -236,7 +236,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/47062/bananas-dessert-ice-cream-fruit-47062.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/i1.jpeg`,
     rate: 3.5
   },
   ,
@@ -249,7 +249,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1576120/pexels-photo-1576120.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/i2.jpeg`,
     rate: 3.5
   },
   ,
@@ -262,7 +262,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/380954/pexels-photo-380954.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/i2.jpeg`,
     rate: 4.5
   },
   ,
@@ -275,7 +275,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/2161643/pexels-photo-2161643.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/i3.jpeg`,
     rate: 5
   },
   ,
@@ -288,7 +288,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/i4.jpeg`,
     rate: 2.5
   },
   ,
@@ -301,7 +301,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/i5.jpeg`,
     rate: 4.5
   },
   {
@@ -313,7 +313,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/ms2.jpeg`,
     rate: 2.5
   },
   ,
@@ -326,7 +326,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500`,
+    image: `../img/ms1.jpeg`,
     rate: 4.5
   },
 
@@ -513,7 +513,6 @@ let allProducts = [
 
     // UI elements
     document.getElementById('layoutView').addEventListener('click', toggleLayoutView);
-    document.getElementById('results').addEventListener('click', handleClickOfProducts);
     document.getElementById('sortOrder').addEventListener('change', sortTheProducts);
 
     // The filter form
