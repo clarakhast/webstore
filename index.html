@@ -12,7 +12,7 @@
   <!-- Material design icons are use below. Remove this line if using other font packs or images. Details on Material Design icons can be found here: https://material.io/resources/icons/ -->
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
   <!-- <header> -->
   <nav class="navbar">
     <div class="logo-container">
-      <a href="#" class="nav-item hover">Candy Land</a>
+      <a href="#" class="nav-item hover logo">Candy Land</a>
     </div>
 
     <div class="nav-menu">
@@ -35,9 +35,9 @@
     </ul>
 
     <ul class="icons-menu">
-      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-      <li><a href="#"><i class="far fa-heart"></i></a></li>
-      <li><a href="#" class="nav-item"><i class="fas fa-user"></i></a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart hover"></i></a></li>
+      <li><a href="#"><i class="far fa-heart hover"></i></a></li>
+      <li><a href="#" class="nav-item"><i class="fas fa-user hover"></i></a></li>
     </ul>
   </nav>
 
@@ -57,32 +57,111 @@
     </header>
 
     <!-- Search the site -->
-    <div class="filter-bar">
-      <h2>All Products</h2>
-      <form>
-          <input type="search" name="find" id="find" placeholder="Search desserts here...">
+
+    <div class="filters">
+      <form class="filters" id="filtersForm">
+        <div class="filter-bar">
+          <h2>All Products <span id="resultsnum"></span></h2>
+          <div>
+            <label for="productName">
+              <input type="text" name="find" id="productName" class="search" placeholder="Search products ...">
+            </label>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="radio-container">
+            <label>
+              <label class="category">
+                <input type="radio" name="category" value="all" checked>
+                <span class="all">All Desserts</span>
+              </label>
+              <label class="category cake">
+                <input type="radio" name="category" value="Cake">
+                <span class="cake all">Cakes</span>
+              </label>
+              <label class="category cupcake">
+                <input type="radio" name="category" value="Cupcake">
+                <span class="cupcake all">Cupcakes</span>
+              </label>
+              <label class="category milkshake">
+                <input type="radio" name="category" value="Milkshake">
+                <span class="milkshake all">Milkshakes</span>
+              </label>
+              <label class="category ice-cream">
+                <input type="radio" name="category" value="Ice Cream">
+                <span class="ice-cream all">Ice Creams</span>
+              </label>
+              <label class="category candy">
+                <input type="radio" name="category" value="Candy">
+                <span class="candy all">Candy</span>
+              </label>
+              <label class="category gift">
+                <input type="radio" name="category" value="Gift">
+                <span class="gift all">Gift Box</span>
+              </label>
+            </label>
+          </div>
       </form>
     </div>
 
-    <div class="categories">
-      <ul>
-        <li><a href="#" class="image">Cupcake</a></li>
-        <li><a href="#" class="image">Cupcake</a></li>
-        <li><a href="#" class="image">Cupcake</a></li>
-        <li><a href="#" class="image">Cupcake</a></li>
-        <li><a href="#" class="image">Cupcake</a></li>
-        <li><a href="#" class="image">Cupcake</a></li>
-        <li><a href="#" class="image">Cupcake</a></li>
-      </ul>
+
+    <div class="sort-container">
+      <div>
+        <select name="sort" id="sortOrder" class="sort">
+          <option value="selected" selected disabled>--Sort By--</option>
+          <option value="priceAsc">Price Low to High</option>
+          <option value="priceDesc">Price High to Low</option>
+          <option value="nameAsc">Name (A-Z)</option>
+          <option value="nameDesc">Name (Z-A)</option>
+          <option value="ratings">Ratings</option>
+        </select>
+
+      </div>
+
+      <div>
+        <button id="layoutView" class="layout-btn">Change Layout</button>
+      </div>
     </div>
 
-  <footer>
-    <p class="small">&copy; Copyright, 1991. Developed with <i class="fas fa-heart"></i> By Clara Khast</p>
-  </footer>
 
-  <!-- [Remove all default comments in this document after reading] -->
 
-  <script src="js/index.js"></script>
+
+    <section id="results" class="results">
+    </section>
+    <div id="res"></div>
+    <ul id="pag"></ul>
+
+    <footer class="footer">
+        <ul class="social-media-list">
+            <li><a class="social-media" href="#"><i class="fab fa-twitter"></i></li>
+            <li><a class="social-media" href="#"><i class="fab fa-facebook-f"></i></li>
+            <li><a class="social-media" href="#"><i class="fab fa-instagram"></i></li>
+            <li><a class="social-media" href="#"><i class="fab fa-pinterest-p"></i></li>
+        </ul>
+
+        <ul class="refund">
+            <li><a class="hover" href="#">Best Price Guarantee</a></li>
+            <li><a class="hover" href="#">Refund Policy</a></li>
+            <li><a class="hover" href="#">Help & Support</a></li>
+            <li><a class="hover" href="#">Contact</a></li>
+        </ul>
+
+        <ul class="policy">
+
+            <li><a class="hover" href="#">Cookies & Privacy Policy</a></li>
+            <li><a class="hover" href="#">Payment Methods</a></li>
+            <li><a class="hover" href="#">Shipping Info</a></li>
+        </ul>
+
+        <div class="copyright">
+            <p>Candy Land, Crafted with <i class="fas fa-heart"></i> by Clara Khast</p>
+            <p>&copy; Candy Land | All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
