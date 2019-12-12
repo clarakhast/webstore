@@ -11,7 +11,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/../img/2.jpeg`,
+    image: `https://github.com/clarakhast/webstore/blob/master/img/2.jpeg?raw=true`,
     rate: 5
   },
   {
@@ -23,7 +23,7 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/../img/4.jpeg`,
+    image: `../img/4.jpeg`,
     rate: 3.5
   },
 
@@ -36,7 +36,7 @@ let allProducts = [
     description: `Harri the cookie monster just adores vanilla ice cream and Oreo cookies. And we adore Harri too.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/c1.jpeg`,
+    image: `../img/c1.jpeg`,
     rate: 4.5
   },
 
@@ -49,7 +49,7 @@ let allProducts = [
     description: `Vanilla ice cream, with liquorice sauce, and topped with liquorice candies.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/c2.jpeg`,
+    image: `../img/c2.jpeg`,
     rate: 4
   },
 
@@ -62,7 +62,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/c3.jpeg`,
+    image: `../img/c3.jpeg`,
     rate: 5
   },
   {
@@ -74,7 +74,7 @@ let allProducts = [
     description: `The American classic campfire dessert S’mores has found itself blended in a milkshake. Chocolate and vanilla ice cream with graham style biscuit, marshmallow syrup and chocolate sauce. Cream and marshmallows on top.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/c4.jpg`,
+    image: `../img/c4.jpg`,
     rate: 2
   },
 
@@ -87,7 +87,7 @@ let allProducts = [
     description: `Indulgent soft chocolate brownie mix smothered in chocolate sauce and chocolate ice cream, topped with a delicious brownie.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/c5.jpeg`,
+    image: `../img/c5.jpeg`,
     rate: 5
   },
 
@@ -100,7 +100,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cake.jpeg`,
+    image: `../img/cake.jpeg`,
     rate: 3.5
   },{
     id: 09,
@@ -111,7 +111,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cake2.jpeg`,
+    image: `../img/cake2.jpeg`,
     rate: 5
   },
   {
@@ -123,7 +123,7 @@ let allProducts = [
     description: `Banana and vanilla ice cream flavored with salted caramel and toffee sauce, topped with dried banana chips.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cake3.jpeg`,
+    image: `../img/cake3.jpeg`,
     rate: 3.5
   },
 
@@ -136,7 +136,7 @@ let allProducts = [
     description: `Harri the cookie monster just adores vanilla ice cream and Oreo cookies. And we adore Harri too.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cp.jpeg`,
+    image: `../img/cp.jpeg`,
     rate: 4.5
   },
 
@@ -149,7 +149,7 @@ let allProducts = [
     description: `Vanilla ice cream, with liquorice sauce, and topped with liquorice candies.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cp1.jpg`,
+    image: `../img/cp1.jpg`,
     rate: 4
   },
 
@@ -162,7 +162,7 @@ let allProducts = [
     description: `Classic creamy vanilla ice cream with french vanilla syrup and a cherry on top`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cp2.jpeg`,
+    image: `../img/cp2.jpeg`,
     rate: 5
   },
   {
@@ -174,7 +174,7 @@ let allProducts = [
     description: `The American classic campfire dessert S’mores has found itself blended in a milkshake. Chocolate and vanilla ice cream with graham style biscuit, marshmallow syrup and chocolate sauce. Cream and marshmallows on top.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/cp3.jpeg`,
+    image: `../img/cp3.jpeg`,
     rate: 2
   },
   {
@@ -186,7 +186,7 @@ let allProducts = [
     description: `Indulgent soft chocolate brownie mix smothered in chocolate sauce and chocolate ice cream, topped with a delicious brownie.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/g1.jpeg`,
+    image: `../img/g1.jpeg`,
     rate: 5
   },
 
@@ -199,7 +199,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/g2.jpeg`,
+    image: `../img/g2.jpeg`,
     rate: 3.5
   },
 
@@ -212,7 +212,7 @@ let allProducts = [
     description: `Chocolate ice cream flavored with creamy peanut butter, and toffee sauce. Topped with salted peanuts.`,
     size: [`Small`, `Medium`, `Large`],
     option: [`Gluten Free`, `Lactose Free`, `Low in Lactose`, `Vegan`],
-    image: `/img/g3.jpeg`,
+    image: `../img/g3.jpeg`,
     rate: 3.5
   },
   {
