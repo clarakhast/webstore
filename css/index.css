@@ -168,7 +168,7 @@ li{
 /* ************************************
              HEADER
 ***************************************/
-header {
+.intro-section {
     background-image:url(../img/candy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@ header {
     margin: 0.5em 1.5em;
 }
 
-header p {
+.intro-section p {
     color: #d4418e;
     font-size: 2em;
     font-weight: 700;
